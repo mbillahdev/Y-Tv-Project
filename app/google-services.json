@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "565993930049",
+    "firebase_url": "https://digitalmobilelivetv.firebaseio.com",
+    "project_id": "digitalmobilelivetv",
+    "storage_bucket": "digitalmobilelivetv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565993930049:android:556a0bd0c79a33651e75c0",
+        "android_client_info": {
+          "package_name": "com.project.mb.digitalmobilelivetv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565993930049-50u7hrdvr2dtk5b84abu5kl8dud6bioe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.mb.digitalmobilelivetv",
+            "certificate_hash": "94cfa57fea6edbc6a843e96b9ec2600acdf3c25e"
+          }
+        },
+        {
+          "client_id": "565993930049-fuij47dilq5upjest6svrjr7arp2afmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwnLHzeRRaZCvRqhFSsILkFEUp4UgbOhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565993930049-fuij47dilq5upjest6svrjr7arp2afmt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

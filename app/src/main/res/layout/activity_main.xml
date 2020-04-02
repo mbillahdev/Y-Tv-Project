@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E5F7F7"
+    android:layout_margin="5dp">
+
+ <android.support.v4.widget.NestedScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="বাংলাদেশি টিভি চ্যানেল"
+                     android:background="@drawable/headerbg"
+                     android:textStyle="bold"
+                     android:textColor="#fff"
+                     android:textSize="23dp"
+                     android:padding="10dp"
+                     android:textAlignment="center"/>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/button"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/somoytv"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                     <Button
+                         android:id="@+id/news24"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/channel24"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/rtv"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/rtv"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                     <Button
+                         android:id="@+id/gtv"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/gtv"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/jamunatv"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/jamunanews"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                     <Button
+                         android:id="@+id/atnNews"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/atn_news"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/independent"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/independentnews"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                     <Button
+                         android:id="@+id/ntv"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/ntv"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/anandatv"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/anondotv"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                     <Button
+                         android:id="@+id/banglavison"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/banglavison"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                 </LinearLayout>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="নিউজ চ্যানেল"
+                     android:background="@drawable/headerbg"
+                     android:textStyle="bold"
+                     android:textColor="#fff"
+                     android:textSize="23dp"
+                     android:padding="10dp"
+                     android:layout_marginTop="10dp"
+                     android:textAlignment="center"/>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/aljezeera"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/aljezeera"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                     <Button
+                         android:id="@+id/skynews"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/skynews"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/news18"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/news18"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                     <Button
+                         android:id="@+id/arynews"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/arynews"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/abcnews"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/abcnews"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                     <Button
+                         android:id="@+id/abpnews"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/abp"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <Button
+                         android:id="@+id/cnn"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/cnn"
+                         android:layout_weight="1"
+                         android:layout_margin="5dp"/>
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                 </LinearLayout>
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+
+
+     </RelativeLayout>
+
+ </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
